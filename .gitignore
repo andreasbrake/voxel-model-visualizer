@@ -1,2 +1,7 @@
 models
 outputs
+local
+dist
+*.egg-info
+*.vscode
+**/__pycache__
