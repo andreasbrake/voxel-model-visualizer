@@ -5,7 +5,7 @@
 
 This code acts as a standalone tool to vizualize voxelized models stored as 4 dimensional numpy arrays (3 geometric dimensions + 1 class dimension).
 
-<img src="https://raw.githubusercontent.com/andreasbrake/voxel-render/master/sample/output_animate.gif" width="400" height="400"/>
+<img src="https://raw.githubusercontent.com/andreasbrake/voxel-model-vizualizer/master/sample/output_animate.gif" width="400" height="400"/>
 
 
 ## Package Installation
