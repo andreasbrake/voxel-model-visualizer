@@ -2,6 +2,8 @@
 
 This code acts as a standalone tool to vizualize voxelized models stored as 4 dimensional numpy arrays (3 geometric dimensions + 1 class dimension).
 
+<img src="sample/output_animate.gif" width="400" height="400"/>
+
 ## Usage
 ```
 usage: main.py [-h] [-a] [-p] [-o OUTPUT] filepath
