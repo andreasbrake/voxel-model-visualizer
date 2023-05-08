@@ -1,0 +1,10 @@
+name: voxel-render
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - argparse
+  - pip:
+    - moderngl
+    - simple_3dviz
+    - wxpython
