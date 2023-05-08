@@ -13,7 +13,7 @@ This code acts as a standalone tool to vizualize voxelized models stored as 4 di
 Can be done directly from `pypi`
 
 ```bash
-pip install voxel_model_vizualizer
+pip install voxel-model-vizualizer
 ```
 
 ## Dependencies
