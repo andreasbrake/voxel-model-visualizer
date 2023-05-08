@@ -2,7 +2,7 @@
 
 import argparse
 import numpy as np
-from voxel_model_vizualizer import VoxelModelVizualizer
+from voxel_model_visualizer import VoxelModelVisualizer
 
 def parse_options():
   parser = argparse.ArgumentParser(description="Voxel model renderer will take a 4 dimensional numpy array (.npy file) and render it into a static image or a gif. This model should have 3 geometric dimensions and a single class dimensions with a maximum of 3 classes",
@@ -29,7 +29,7 @@ if __name__ == '__main__':
   
   np_arr = np.load(input_path)
   
-  VoxelModelVizualizer(
+  VoxelModelVisualizer(
     verbose=is_verbose
   ).render(
     np_arr,

@@ -18,7 +18,7 @@ def collect_docstring(lines):
 
 def collect_metadata():
     meta = {}
-    with open(path.join("voxel_model_vizualizer", "__init__.py")) as f:
+    with open(path.join("voxel_model_visualizer", "__init__.py")) as f:
         lines = iter(f)
         meta["description"] = collect_docstring(lines)
         for line in lines:
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     long_description = f.read()
 
   setup(
-      name='voxel-model-vizualizer',
+      name='voxel-model-visualizer',
       version=meta["version"],
 
       description=meta["description"],
@@ -48,7 +48,7 @@ if __name__ == '__main__':
       keywords=meta["keywords"],
       license=meta["license"],
 
-      py_modules=['voxel_model_vizualizer'],
+      py_modules=['voxel_model_visualizer'],
       
       install_requires=[
         "moderngl",

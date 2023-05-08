@@ -7,7 +7,7 @@ from simple_3dviz.window import show
 from simple_3dviz.utils import render
 from simple_3dviz.scenes import Scene
 
-class VoxelModelVizualizer():
+class VoxelModelVisualizer():
   def __init__(self, gif_resolution=720, static_resolution=4096, frame_count=120, fps=24, camera_distance=2, camera_height=1, pancake_spread=5, verbose=False):
     self.gif_resolution = gif_resolution
     self.static_resolution = static_resolution

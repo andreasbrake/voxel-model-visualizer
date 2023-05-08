@@ -1,5 +1,5 @@
 import numpy as np
-from voxel_model_vizualizer import VoxelModelVizualizer
+from voxel_model_visualizer import VoxelModelVisualizer
 
 def generate_simple_model(scaling_mult=None):
   voxel_space = np.ones((7,7,7,4)) * np.array([1, 0, 0, 0])
@@ -18,9 +18,9 @@ if __name__ == '__main__':
 
   np.save('./sample/input.npy', sample_model)
 
-  vizualizer = VoxelModelVizualizer()
+  visualizer = VoxelModelVisualizer()
 
-  vizualizer.render(sample_model, colours, output_path='./sample/out.png')
-  vizualizer.render(sample_model, colours, output_path='./sample/out_pancake.png', pancake=True)
-  vizualizer.render(sample_model, colours, output_path='./sample/out_animate.gif', animate=True)
-  vizualizer.render(sample_model, colours, output_path='./sample/out_animate_pancake.gif', animate=True, pancake=True)
+  visualizer.render(sample_model, colours, output_path='./sample/out.png')
+  visualizer.render(sample_model, colours, output_path='./sample/out_pancake.png', pancake=True)
+  visualizer.render(sample_model, colours, output_path='./sample/out_animate.gif', animate=True)
+  visualizer.render(sample_model, colours, output_path='./sample/out_animate_pancake.gif', animate=True, pancake=True)
